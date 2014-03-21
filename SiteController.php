@@ -1,11 +1,7 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Marijus
- * Date: 3/21/14
- * Time: 11:41 AM
+ * Plugin's site controller. Validates an e-mail address submitted from Newsletter widget, and stores it to database.
  */
-
 namespace Plugin\NewsletterRegistration;
 
 

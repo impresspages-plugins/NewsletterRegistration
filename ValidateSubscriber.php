@@ -1,4 +1,7 @@
 <?php
+/**
+ * Custom validator which prevents duplicate subscriptions
+ */
 namespace Plugin\NewsletterRegistration;
 
 class ValidateSubscriber extends \Ip\Form\Validator {

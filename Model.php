@@ -1,11 +1,7 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Marijus
- * Date: 3/21/14
- * Time: 10:03 AM
+ * Model. Various database and form data operations.
  */
-
 namespace Plugin\NewsletterRegistration;
 
 

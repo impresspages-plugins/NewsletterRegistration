@@ -1,3 +1,4 @@
+<!-- View file. When e-mail message is registered, hidden class is removed from a div with ipsThankYou class. -->
 <div class="ipsNewsletterForm">
 <?php
 echo $form->render();

@@ -1,6 +1,9 @@
 <?php
 /**
  * Adds administration grid
+ *
+ * When plugin is installed, `Newsletter example` menu appears in administration page.
+ *
  */
 
 namespace Plugin\NewsletterRegistration;
