@@ -1,4 +1,4 @@
-# Newsletter Registration example (MVC)
+# Newsletter subscription example (MVC)
 
 MVC example for ImpressPages.
 
@@ -9,7 +9,7 @@ in `Newsletter example` grid panel on the administration page.
 
 ## Install
 
-1. Upload `NewsletterRegistration` directory to your website's `Plugin` folder.
+1. Upload `NewsletterRegistration` directory to your website's `Plugin` directory.
 2. Login to the administration area.
 3. Go to `Plugins` panel, locate `Newsletter example` plugin and click `activate` button.
 
@@ -23,4 +23,4 @@ in `Newsletter example` grid panel on the administration page.
 ## Note
 
 This simple MVC example does not contain e-mail confirmation, CAPTCHA or IP address verification checks.
-Feel free to use it as a basis to develop your own plugins.
+Feel free to use this sample code as a basis to develop your own plugins.
