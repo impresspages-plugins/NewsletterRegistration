@@ -2,7 +2,7 @@
 /**
  * Adds administration grid
  *
- * When plugin is installed, `Newsletter example` menu appears in administration page.
+ * When this plugin is installed, `Newsletter example` panel appears in administration site.
  *
  */
 

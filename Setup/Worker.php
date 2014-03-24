@@ -5,7 +5,9 @@ namespace Plugin\NewsletterRegistration\Setup;
 class Worker extends \Ip\SetupWorker
 {
 
-    // Create SQL table when installing the plugin
+    /**
+     * Create SQL table on plugin activation
+     */
     public function activate()
     {
         $sql = '
@@ -21,7 +23,9 @@ class Worker extends \Ip\SetupWorker
 
     }
 
-    // Delete SQL table when uninstalling the plugin
+    /**
+     * Delete SQL table on plugin deactivation
+     */
     public function deactivate()
     {
         $sql = '
@@ -33,7 +37,7 @@ class Worker extends \Ip\SetupWorker
 
     public function remove()
     {
-
     }
 
 }
+

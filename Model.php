@@ -8,7 +8,6 @@ namespace Plugin\NewsletterRegistration;
 class Model {
 
     /**
-     *
      * Store e-mail in a database
      * @param $email
      */
@@ -48,7 +47,6 @@ class Model {
         $field->addValidator('Email');
 
         // Add custom validator for checking if e-mail already exists in a table.
-
         $customValidator = new ValidateSubscriber();
         $field->addValidator($customValidator);
 
