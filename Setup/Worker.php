@@ -29,7 +29,7 @@ class Worker extends \Ip\SetupWorker
     public function deactivate()
     {
         $sql = '
-        DROP TABLE IF NOT EXISTS
+        DROP TABLE IF EXISTS
            ' . ipTable('newsletterExample') ;
 
         ipDb()->execute($sql);
