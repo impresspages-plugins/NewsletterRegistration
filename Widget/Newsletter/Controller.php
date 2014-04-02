@@ -15,6 +15,6 @@ class Controller extends \Ip\WidgetController
         // Pass form object to a view file skin/default.php
         $data['form'] = $form;
 
-        return parent::generateHtml($revisionId, $widgetId, $instanceId, $data, $skin);
+        return parent::generateHtml($revisionId, $widgetId, $data, $skin);
     }
 }
