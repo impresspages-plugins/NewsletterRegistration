@@ -8,7 +8,7 @@ namespace Plugin\NewsletterRegistration\Widget\Newsletter;
 
 class Controller extends \Ip\WidgetController
 {
-    public function generateHtml($revisionId, $widgetId, $instanceId, $data, $skin)
+    public function generateHtml($revisionId, $widgetId, $data, $skin)
     {
         $form = \Plugin\NewsletterRegistration\Model::createForm();
 

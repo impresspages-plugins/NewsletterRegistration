@@ -23,20 +23,17 @@ class Worker extends \Ip\SetupWorker
 
     }
 
-    /**
-     * Delete SQL table on plugin deactivation
-     */
     public function deactivate()
+    {
+    }
+
+    public function remove()
     {
         $sql = '
         DROP TABLE IF EXISTS
            ' . ipTable('newsletterExample') ;
 
         ipDb()->execute($sql);
-    }
-
-    public function remove()
-    {
     }
 
 }
