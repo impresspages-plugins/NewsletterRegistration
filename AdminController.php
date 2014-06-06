@@ -2,7 +2,7 @@
 /**
  * Adds administration grid
  *
- * When this plugin is installed, `Newsletter example` panel appears in administration site.
+ * When this plugin is installed, `NewsletterRegistration example` panel appears in administration site.
  *
  */
 
@@ -14,7 +14,7 @@ class AdminController extends \Ip\GridController
 
     protected  function config(){
         return array(
-            'title' => 'Newsletter example',
+            'title' => 'NewsletterRegistration example',
             'table' => 'newsletterExample',
             'deleteWarning' => 'Are you sure?',
             'sortField' => 'personOrder',
@@ -30,4 +30,4 @@ class AdminController extends \Ip\GridController
         );
     }
 
-} 
+}

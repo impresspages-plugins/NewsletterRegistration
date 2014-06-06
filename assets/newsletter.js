@@ -1,6 +1,6 @@
-$('.ipWidget-Newsletter form').on('ipSubmitResponse', function(e, response) {
+$('.ipWidget-NewsletterRegistration form').on('ipSubmitResponse', function(e, response) {
     var $this = $(this);
-    var $widget = $this.closest('.ipWidget-Newsletter');
+    var $widget = $this.closest('.ipWidget-NewsletterRegistration');
 
     if (response.status == 'ok') {
         $widget.find('.ipsNewsletterForm').addClass('hidden');

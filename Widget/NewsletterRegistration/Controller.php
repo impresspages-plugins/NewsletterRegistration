@@ -4,7 +4,7 @@
  * Widget controller
  */
 
-namespace Plugin\NewsletterRegistration\Widget\Newsletter;
+namespace Plugin\NewsletterRegistration\Widget\NewsletterRegistration;
 
 class Controller extends \Ip\WidgetController
 {

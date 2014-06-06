@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin's site controller. Validates an e-mail address submitted from Newsletter widget, and stores it to database.
+ * Plugin's site controller. Validates an e-mail address submitted from NewsletterRegistration widget, and stores it to database.
  */
 namespace Plugin\NewsletterRegistration;
 
@@ -39,4 +39,4 @@ class SiteController extends \Ip\Controller {
         return new \Ip\Response\Json( $status);
     }
 
-} 
+}
